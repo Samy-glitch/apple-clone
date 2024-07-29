@@ -13,16 +13,7 @@ const Footer = () => {
           </p>
         </div>
         <div className="bg-neutral-500 my-5 h-[1px] w-full" />
-        <p className="font-semibold text-gray text-xs">
-          Created by{" "}
-          <a
-            href="https://samy0.netlify.app/"
-            target="_blank"
-            className="underline text-blue cursor-pointer"
-          >
-            Samy
-          </a>
-        </p>
+
         <div className="flex md:flex-row flex-col md:items-center justify-between">
           <p className="font-semibold text-gray text-xs">
             Copright @ 2024 Apple Inc. All rights reserved.
@@ -38,6 +29,26 @@ const Footer = () => {
             ))}
           </div>
         </div>
+        <p className="font-semibold text-gray text-xs">
+          Created by{" "}
+          <a
+            href="https://samy0.netlify.app/"
+            target="_blank"
+            className="underline text-blue cursor-pointer"
+          >
+            Samy
+          </a>{" "}
+        </p>
+        <p className="font-semibold text-gray text-xs">
+          Github{" "}
+          <a
+            href="https://github.com/Samy-glitch/apple-clone"
+            target="_blank"
+            className="underline text-blue cursor-pointer"
+          >
+            Repository
+          </a>
+        </p>
       </div>
     </footer>
   );
